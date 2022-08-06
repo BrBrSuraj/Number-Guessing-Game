@@ -1,0 +1,26 @@
+Generally in the client and server, what type of request is going to happen between them.
+some request are GET, POST, PUT , DELETE which make establish the communication between the client and server.
+__________________________________________________________________
+GET: Fetch the data from the server
+POST: Send data to server
+PUT: to update data at server
+DELETE: to delete data at server
+__________________________________________________________________
+
+if we use some externel api call to fetch the data we dont have much control on these data with particular url. 
+
+REst API : Representational state API is way , set of url which allow to communicate between client and server.
+- the way of creating set of url which allow to make communication between client and server is a concept of REST API.
+
+Example: Employee Portal Application
+GET-> /api/employees/
+POST-> /api/employees/
+PUT-> /api/employees/:id
+DELET-> /api/employees/:id
+
+To create the express server we need some module as follow
+-express
+-body-parser : for form handdlling
+-cors -> for cross browsere
+
+npm install express body-parser cors --save

@@ -1,0 +1,10 @@
+{
+    "id":1,
+    "name":"Suraj Paudel",
+    "Age":30,
+    "hobby":{
+        "first":"Research",
+        "second":"Visit"
+    },
+    "address":"hetauda 8 kamane"
+}
